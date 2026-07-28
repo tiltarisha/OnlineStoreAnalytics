@@ -23,13 +23,10 @@
 ## Технологии
 
 - MS SQL Server
-- SQL
-- Draw.io
-- Postman
+- SQL - Postman
 - REST API
 - JSON
-- Git
-- GitHub
+- Git - GitHub
 
 ---
 
@@ -46,7 +43,7 @@
 
 ### ER-диаграмма
 
-![ER Diagram](docs/images/er_diagram.png)
+![alt text](<ER Diagram.png>)
 
 ---
 
@@ -54,7 +51,7 @@
 
 Процесс оформления заказа описан с использованием BPMN.
 
-![BPMN](docs/images/bpmn.png)
+![alt text](BPMN.png)
 
 ---
 
@@ -113,10 +110,10 @@ api/postman_collection.json
 Проект содержит следующую документацию:
 
 - Business Requirements
-- User Guide
-- Data Dictionary
+- User Cases
 - API Documentation
-- SQL Report
+- Functional Requirements
+- Non-functional Requirements
 
 ---
 
@@ -129,16 +126,15 @@ OnlineStoreAnalytics
 │   └── postman_collection.json
 │
 ├── database
-│   ├── create_database.sql
-│   ├── insert_data.sql
+│   ├── OnlineStore.sql
 │   └── database_diagram.png
 │
 ├── docs
 │   ├── API_Documentation.md
 │   ├── Business_Requirements.md
-│   ├── Data_Dictionary.md
-│   ├── SQL_Report.pdf
-│   ├── User_Guide.md
+│   ├── Use Cases.docx
+│   ├── Functional Requirements.docx
+│   ├── Non-functional Requirement.docx
 │   └── images
 │
 ├── sql
@@ -152,24 +148,23 @@ OnlineStoreAnalytics
 ## Как запустить проект
 
 1. Создать базу данных в MS SQL Server.
-2. Выполнить `create_database.sql`.
-3. Выполнить `insert_data.sql`.
-4. Запустить `analytics_queries.sql`.
-5. При необходимости импортировать коллекцию Postman.
-6. Ознакомиться с документацией проекта.
+2. Выполнить `OnlineStore.sql`.
+3. Запустить `analytics_queries.sql`.
+4. При необходимости импортировать коллекцию Postman.
+5. Ознакомиться с документацией проекта.
 
 ---
 
 ## Repository Contents
 
 - SQL database
-- Test data
 - Analytical SQL queries
 - ER Diagram
 - BPMN Diagram
-- Data Dictionary
 - Business Requirements
-- User Guide
+- Functional Requirements
+- Non-functional Requirement
+- User Cases
 - REST API Documentation
 - Postman Collection
 
